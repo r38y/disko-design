@@ -1,0 +1,58 @@
+$font-family: Quando, Georgia, serif;
+@import "compass/css3";
+@import "compass/utilities/general/clearfix";
+
+body {
+  font-family: $font-family;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family;
+}
+.reply {
+  @include clearfix;
+  clear: both;
+  margin-bottom: 20px;
+  textarea {
+    width: 98%;
+    height: 100px;
+    margin-bottom: 0;
+  }
+  input[type="file"] {
+    // margin-bottom: 20px;
+  }
+  input[type="file"],
+  button,
+  {
+    display: block;
+  }
+}
+.ad {
+  background: #FCF8E3;
+  padding: 10px;
+}
+input[type="text"],
+textarea,
+button,
+.button,
+{
+  font-family: $font-family;
+}
+.participants {
+  #new-participant {
+    border: none;
+    border-color: none;
+    @include border-radius(0);
+    border-radius: 0;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    &:focus {
+      border: none;
+    }
+  }
+  em {
+    font-size: 80%;
+  }
+}

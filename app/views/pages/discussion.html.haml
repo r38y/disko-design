@@ -1,0 +1,65 @@
+.twelve.columns
+  .discussion
+    .two.columns.alpha
+      = gravatar_image_tag 'me@r38y.com', size: 100
+      Host
+    .ten.columns.omega
+      %p <strong>Randy S.:</strong> Synergistically facilitate premium total linkage rather than team driven meta-services. Energistically leverage other's leading-edge e-tailers whereas synergistic catalysts for change. Energistically predominate value-added users via functionalized expertise.
+
+      %p Intrinsicly aggregate alternative bandwidth after pandemic internal or "organic" sources. Distinctively leverage existing resource-leveling ideas with enabled expertise. Synergistically recaptiualize seamless information and client-focused architectures.
+
+      %p Intrinsicly aggregate alternative bandwidth after pandemic internal or "organic" sources. Distinctively leverage existing resource-leveling ideas with enabled expertise. Synergistically recaptiualize seamless information and client-focused architectures.
+  .reply
+    .two.columns.alpha
+      = gravatar_image_tag 'john@tikaro.net', size: 100
+      Member
+    .ten.columns.omega
+      %p <strong>John Y.:</strong> Synergistically facilitate premium total linkage rather than team driven meta-services. Energistically leverage other's leading-edge e-tailers whereas synergistic catalysts for change. Energistically predominate value-added users via functionalized expertise.
+
+      %p Intrinsicly aggregate alternative bandwidth after pandemic internal or "organic" sources. Distinctively leverage existing resource-leveling ideas with enabled expertise. Synergistically recaptiualize seamless information and client-focused architectures.
+  .reply
+    .two.columns.alpha
+      = gravatar_image_tag 'rdrush@gmail.com', size: 100
+    .ten.columns.omega
+      %p <strong>rdrush@gmail.com:</strong> Synergistically facilitate premium total linkage rather than team driven meta-services. Energistically leverage other's leading-edge e-tailers whereas synergistic catalysts for change. Energistically predominate value-added users via functionalized expertise.
+
+      %p Intrinsicly aggregate alternative bandwidth after pandemic internal or "organic" sources. Distinctively leverage existing resource-leveling ideas with enabled expertise. Synergistically recaptiualize seamless information and client-focused architectures.
+  .reply
+    .two.columns.alpha
+      = gravatar_image_tag 'wpoole@gmail.com', size: 100
+    .ten.columns.omega
+      %p <strong>wpoole@gmail.com:</strong> Synergistically facilitate premium total linkage rather than team driven meta-services. Energistically leverage other's leading-edge e-tailers whereas synergistic catalysts for change. Energistically predominate value-added users via functionalized expertise.
+  .reply
+    .two.columns.alpha
+      = gravatar_image_tag 'kate.young@gmail.com', size: 100
+    .ten.columns.omega
+      %p <strong>Kate Y.:</strong> Synergistically facilitate premium total linkage rather than team driven meta-services. Energistically leverage other's leading-edge e-tailers whereas synergistic catalysts for change. Energistically predominate value-added users via functionalized expertise.
+      %p Synergistically facilitate premium total linkage rather than team driven meta-services. Energistically leverage other's leading-edge e-tailers whereas synergistic catalysts for change. Energistically predominate value-added users via functionalized expertise.
+  .reply
+    .two.columns.alpha
+      = gravatar_image_tag 'me@r38y.com', size: 100
+      Host
+    .ten.columns.omega
+      %form
+        %ul
+          %li
+            = text_area_tag :reply, '', placeholder: 'Your reply'
+          %li
+            = file_field_tag :file
+          %li
+            = button_tag "Reply", type: 'submit'
+
+.four.columns
+  .participants
+    %ul
+      %li <strong>Randy Schmidt</strong> <em>host</em>
+      %li <strong>John Young</strong> <em>member</em>
+      %li rdrush@gmail.com
+      %li Kate Young
+      %li wpoole@gmail.com
+      %li jason.tremblay@gmail.com
+      %li
+        %form
+          = text_field_tag :email, '', placeholder: 'Invite participant by email', id: 'new-participant'
+
+  %p.ad Disko is the <em>Simplest</em> way to pull a discussion out of email.
