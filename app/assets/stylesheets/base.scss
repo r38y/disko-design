@@ -9,10 +9,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family;
 }
-.reply {
+.reply, .discussion {
+  margin-bottom: 30px;
   @include clearfix;
   clear: both;
-  margin-bottom: 20px;
+}
+.reply {
   textarea {
     width: 98%;
     height: 100px;
