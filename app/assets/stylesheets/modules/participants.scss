@@ -1,6 +1,9 @@
 @import "compass/css3";
 @import "../base";
 .participants {
+  ul {
+    -webkit-padding-start: 0;
+  }
   #new-participant {
     border: none;
     border-color: none;

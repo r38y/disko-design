@@ -1,0 +1,14 @@
+.content {
+  ul, ol {
+    margin-left: 40px;
+    -webkit-padding-start: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+  ul {
+    list-style: disc;
+  }
+  form ul {
+    margin-left: 0;
+  }
+}
