@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '1.9.3'
 gem 'rails', '3.2.9'
 gem 'haml-rails'
+gem 'thin'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -14,5 +15,4 @@ end
 
 group :development do
   gem 'quiet_assets'
-  gem 'thin'
 end
