@@ -1,5 +1,6 @@
 DiskoDesign::Application.routes.draw do
-  get "/:action" => 'pages', as: :page_path
+  root to: 'pages#index'
+  get "/:action" => 'pages', as: :page
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
