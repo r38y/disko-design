@@ -13,7 +13,7 @@
     padding-left: 0;
     padding-right: 0;
     &:focus {
-      @include single-box-shadow(#FFF, 0, 0, 0, 0, 0);
+      @include single-box-shadow(#FFF, 0, 0);
     }
   }
   em {
