@@ -3,6 +3,10 @@
   margin-top: 0;
   font-size: 28px; line-height: 34px; margin-bottom: 8px;
 }
+.disc-meta, .disc-meta a {
+  color: #888;
+  font-size: 14px;
+}
 .reply, .discussion {
   margin-bottom: 30px;
   @include clearfix;
@@ -21,5 +25,15 @@
   button,
   {
     display: block;
+  }
+}
+.disc-list {
+  .disc-summary {
+    background: #EEE;
+    margin-bottom: 12px;
+  }
+  .disc-title {
+    font-size: 28px;
+    line-height: 34px;
   }
 }
