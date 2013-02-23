@@ -1,6 +1,10 @@
 @import "compass/css3";
 @import "../base";
 
+.form-row {
+  margin-bottom: 12px;
+}
+
 input[type="text"],
 input[type="password"],
 input[type="email"],

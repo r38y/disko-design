@@ -1,5 +1,5 @@
 .twelve.columns
-  %h2.discussion-title Intrinsicly aggregate alternative bandwidth after pandemic
+  %h2.discussion-title Intrinsicly aggregate alternative bandwidth after pandemic bandwidth after pandemich
   .discussion
     .two.columns.alpha.who
       .who-img
@@ -62,13 +62,9 @@
       %div.who-role Host
     .ten.columns.omega.content
       %form
-        %ul
-          %li
-            = text_area_tag :reply, '', placeholder: 'Your reply'
-          %li
-            = file_field_tag :file
-          %li
-            = button_tag "Reply", type: 'submit', class: 'button-primary'
+        .form-row= text_area_tag :reply, '', placeholder: 'Your reply'
+        .form-row= file_field_tag :file
+        .form-row= button_tag "Reply", type: 'submit', class: 'button-primary'
 
 .four.columns
   .participants
