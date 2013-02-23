@@ -4,16 +4,16 @@
   ul {
     -webkit-padding-start: 0;
   }
-  #new-participant {
+  input[type="text"] {
     border: none;
-    border-color: none;
     @include border-radius(0);
     border-bottom-style: dashed;
     border-bottom-width: 1px;
+    border-bottom-color: #000;
     padding-left: 0;
     padding-right: 0;
     &:focus {
-      border: none;
+      @include single-box-shadow(#FFF, 0, 0, 0, 0, 0);
     }
   }
   em {
